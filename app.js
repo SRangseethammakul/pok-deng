@@ -73,6 +73,8 @@ const run = async () => {
       if (newRound === "no" || newRound === "n" || newRound === "No") {
         break;
       }
+
+      // clear for new round
       await clearCard();
       round = 0;
       cardPlayer = [];
